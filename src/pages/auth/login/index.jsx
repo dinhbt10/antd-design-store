@@ -1,19 +1,20 @@
-import React, { useState } from "react";
 import { Button, Form, Input, message, notification } from "antd";
-import { postRegister } from "../../../services";
+import React, { useState } from "react";
 import { Link, useNavigate } from "react-router-dom";
+import { postLogin } from "../../../services";
 
-const RegisterPage = () => {
+const Login = () => {
   const navigate = useNavigate();
   const [loading, setLoading] = useState(false);
 
   const onFinish = async (values) => {
     setLoading(true);
-    const res = await postRegister(values);
+    const res = await postLogin(values);
+    console.log(res);
     setLoading(false);
     if (res.data) {
-      message.success("Đăng ký thành công!");
-      navigate("/login");
+      message.success("Đăng nhập thành công!");
+      navigate("/");
     } else {
       notification.error({
         message: "Có lỗi xảy ra",
@@ -34,7 +35,7 @@ const RegisterPage = () => {
         flexDirection: "column",
       }}
     >
-      <h1 style={{ display: "block" }}>Đăng kí tài khoản</h1>
+      <h1 style={{ display: "block" }}>Đăng nhập</h1>
       <Form
         name="basic"
         labelCol={{
@@ -55,7 +56,7 @@ const RegisterPage = () => {
         <Form.Item
           labelCol={{ span: 24 }}
           label="Email"
-          name="email"
+          name="username"
           rules={[
             {
               required: true,
@@ -65,33 +66,6 @@ const RegisterPage = () => {
         >
           <Input type="email" />
         </Form.Item>
-        <Form.Item
-          labelCol={{ span: 24 }}
-          label="FullName"
-          name="fullName"
-          rules={[
-            {
-              required: true,
-              message: "Please input your fullName!",
-            },
-          ]}
-        >
-          <Input />
-        </Form.Item>
-        <Form.Item
-          labelCol={{ span: 24 }}
-          label="Phone"
-          name="phone"
-          rules={[
-            {
-              required: true,
-              message: "Please input your phone!",
-            },
-          ]}
-        >
-          <Input type="number" />
-        </Form.Item>
-
         <Form.Item
           labelCol={{ span: 24 }}
           label="Password"
@@ -118,7 +92,7 @@ const RegisterPage = () => {
               justifyContent: "space-between",
             }}
           >
-            <Link to="/login">Đăng nhập</Link>
+            <Link to="/register">Đăng kí</Link>
             <Button type="primary" htmlType="submit" loading={loading}>
               Đăng nhập
             </Button>
@@ -129,4 +103,4 @@ const RegisterPage = () => {
   );
 };
 
-export default RegisterPage;
+export default Login;
