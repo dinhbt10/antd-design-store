@@ -29,102 +29,113 @@ const RegisterPage = () => {
         display: "flex",
         justifyContent: "center",
         alignItems: "center",
-        height: "100%",
-        padding: "50px",
+        height: "100vh",
+        width: "100wh",
         flexDirection: "column",
+        backgroundColor: "rgb(242, 243, 244)",
+        padding: 0,
+        margin: 0,
       }}
     >
-      <h1 style={{ display: "block" }}>Đăng kí tài khoản</h1>
-      <Form
-        name="basic"
-        labelCol={{
-          span: 24,
-        }}
-        wrapperCol={{
-          span: 16,
-        }}
-        style={{
-          maxWidth: 1000,
-        }}
-        initialValues={{
-          remember: true,
-        }}
-        onFinish={onFinish}
-        autoComplete="off"
-      >
-        <Form.Item
-          labelCol={{ span: 24 }}
-          label="Email"
-          name="email"
-          rules={[
-            {
-              required: true,
-              message: "Please input your email!",
-            },
-          ]}
-        >
-          <Input type="email" />
-        </Form.Item>
-        <Form.Item
-          labelCol={{ span: 24 }}
-          label="FullName"
-          name="fullName"
-          rules={[
-            {
-              required: true,
-              message: "Please input your fullName!",
-            },
-          ]}
-        >
-          <Input />
-        </Form.Item>
-        <Form.Item
-          labelCol={{ span: 24 }}
-          label="Phone"
-          name="phone"
-          rules={[
-            {
-              required: true,
-              message: "Please input your phone!",
-            },
-          ]}
-        >
-          <Input type="number" />
-        </Form.Item>
-
-        <Form.Item
-          labelCol={{ span: 24 }}
-          label="Password"
-          name="password"
-          rules={[
-            {
-              required: true,
-              message: "Please input your password!",
-            },
-          ]}
-        >
-          <Input.Password />
-        </Form.Item>
-
-        <Form.Item
-          wrapperCol={{
-            offset: 8,
-            span: 16,
+      <div style={{ background: "white", width: "30%", padding: "20px" }}>
+        <h1 style={{ display: "block" }}>Đăng ký</h1>
+        <Form
+          name="basic"
+          labelCol={{
+            span: 24,
           }}
+          wrapperCol={{
+            span: 24,
+          }}
+          style={{
+            maxWidth: 1000,
+          }}
+          initialValues={{
+            remember: true,
+          }}
+          onFinish={onFinish}
+          autoComplete="off"
         >
-          <div
-            style={{
-              display: "flex",
-              justifyContent: "space-between",
+          <Form.Item
+            labelCol={{ span: 24 }}
+            label="Email"
+            name="email"
+            rules={[
+              {
+                required: true,
+                message: "Please input your email!",
+              },
+            ]}
+          >
+            <Input type="email" />
+          </Form.Item>
+          <Form.Item
+            labelCol={{ span: 24 }}
+            label="Fullname"
+            name="fullName"
+            rules={[
+              {
+                required: true,
+                message: "Please input your fullName!",
+              },
+            ]}
+          >
+            <Input />
+          </Form.Item>
+          <Form.Item
+            labelCol={{ span: 24 }}
+            label="Phone"
+            name="phone"
+            rules={[
+              {
+                required: true,
+                message: "Please input your phone!",
+              },
+            ]}
+          >
+            <Input type="number" />
+          </Form.Item>
+          <Form.Item
+            labelCol={{ span: 24 }}
+            label="Password"
+            name="password"
+            rules={[
+              {
+                required: true,
+                message: "Please input your password!",
+              },
+            ]}
+          >
+            <Input.Password autoComplete="off" />
+          </Form.Item>
+
+          <Form.Item
+            wrapperCol={{
+              span: 24,
             }}
           >
-            <Link to="/login">Đăng nhập</Link>
-            <Button type="primary" htmlType="submit" loading={loading}>
-              Đăng nhập
-            </Button>
-          </div>
-        </Form.Item>
-      </Form>
+            <div
+              style={{
+                display: "flex",
+                flexDirection: "column",
+                alignItems: "start",
+                gap: "10px",
+              }}
+            >
+              <Button type="primary" htmlType="submit" loading={loading}>
+                Đăng ký
+              </Button>
+              <span style={{ paddingLeft: "50%" }}>Or</span>
+              <div
+                style={{ display: "flex", flexDirection: "row", gap: "10px" }}
+              >
+                <span>Bạn đã có tài khoản?</span>
+                <Link to="/login">Đăng nhập</Link>
+              </div>
+            </div>
+          </Form.Item>
+        </Form>
+      </div>
     </div>
   );
 };

@@ -1,7 +1,7 @@
 import React from "react";
 
 const Footer = () => {
-  return <div>Footer</div>;
+  return <div>Website shopping cart desgin by Đình 21</div>;
 };
 
 export default Footer;
