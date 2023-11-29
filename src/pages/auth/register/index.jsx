@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import { Button, Form, Input, message, notification } from "antd";
 import { postRegister } from "../../../services";
 import { Link, useNavigate } from "react-router-dom";
+import backGround from "../../../assets/manga-one-piece-wallpaper-preview.jpg";
 
 const RegisterPage = () => {
   const navigate = useNavigate();
@@ -35,6 +36,8 @@ const RegisterPage = () => {
         backgroundColor: "rgb(242, 243, 244)",
         padding: 0,
         margin: 0,
+        background: `url(${backGround})`,
+        backgroundSize: "100% 100%",
       }}
     >
       <div style={{ background: "white", width: "30%", padding: "20px" }}>
@@ -122,7 +125,12 @@ const RegisterPage = () => {
                 gap: "10px",
               }}
             >
-              <Button type="primary" htmlType="submit" loading={loading}>
+              <Button
+                type="primary"
+                htmlType="submit"
+                loading={loading}
+                style={{ background: "#4096ff" }}
+              >
                 Đăng ký
               </Button>
               <span style={{ paddingLeft: "50%" }}>Or</span>
@@ -130,7 +138,9 @@ const RegisterPage = () => {
                 style={{ display: "flex", flexDirection: "row", gap: "10px" }}
               >
                 <span>Bạn đã có tài khoản?</span>
-                <Link to="/login">Đăng nhập</Link>
+                <Link to="/login" className="text-[#3498DB] font-bold">
+                  Đăng nhập
+                </Link>
               </div>
             </div>
           </Form.Item>

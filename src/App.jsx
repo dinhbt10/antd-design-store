@@ -13,47 +13,26 @@ import Loading from "./components/Loading";
 import NotFound from "./components/NotFound";
 import AdminPage from "./components/Admin";
 import ProtectedRoute from "./components/ProtectedRoute";
+import LayoutClient from "./layout/LayoutClient";
+import LayoutAdmin from "./layout/LayoutAdmin";
+import CalendarPage from "./pages/calendar";
 
-const Layout = () => {
-  return (
-    <div style={{ position: "relative", minHeight: "100vh" }}>
-      <div>
-        <Header />
-      </div>
-      <div>
-        <Outlet />
-      </div>
-      <div
-        style={{
-          position: "absolute",
-          bottom: 0,
-          width: "100%",
-          height: "50px",
-          textAlign: "center",
-        }}
-      >
-        <Footer />
-      </div>
-    </div>
-  );
-};
-
-const LayoutAdmin = () => {
-  const isAdminRoute = window.location.pathname.startsWith("/admin");
-  const { user } = useSelector((store) => store.auth);
-  const userRole = user.role;
-  return (
-    <>
-      {isAdminRoute && userRole === "ADMIN" && <Header />}
-      <Outlet />
-      {isAdminRoute && userRole === "ADMIN" && <Footer />}
-    </>
-  );
-};
+// const LayoutAdmin = () => {
+//   const isAdminRoute = window.location.pathname.startsWith("/admin");
+//   const { user } = useSelector((store) => store.auth);
+//   const userRole = user.role;
+//   return (
+//     <>
+//       {isAdminRoute && userRole === "ADMIN" && <Header />}
+//       <Outlet />
+//       {isAdminRoute && userRole === "ADMIN" && <Footer />}
+//     </>
+//   );
+// };
 
 export default function App() {
   const dispatch = useDispatch();
-  const { isAuthenticated } = useSelector((store) => store.auth);
+  const { isLoading, isAuthenticated } = useSelector((store) => store.auth);
 
   const getAccount = async () => {
     if (
@@ -74,7 +53,7 @@ export default function App() {
   const router = createBrowserRouter([
     {
       path: "/",
-      element: <Layout />,
+      element: <LayoutClient />,
       errorElement: <NotFound />,
       children: [
         {
@@ -85,11 +64,15 @@ export default function App() {
           path: "contact",
           element: <ContactPage />,
         },
+        {
+          path: "calender",
+          element: <CalendarPage />,
+        },
       ],
     },
     {
       path: "/login",
-      element: <Login />,
+      element: !isAuthenticated && <Login />,
     },
     {
       path: "/register",
@@ -97,19 +80,27 @@ export default function App() {
     },
     {
       path: "/admin",
-      element: <LayoutAdmin />,
+      element: (
+        <ProtectedRoute>
+          <LayoutAdmin />
+        </ProtectedRoute>
+      ),
       errorElement: <NotFound />,
       children: [
         {
           index: true,
-          element: (
-            <ProtectedRoute>
-              <AdminPage />
-            </ProtectedRoute>
-          ),
+          element: <AdminPage />,
         },
         {
-          path: "user",
+          path: "users",
+          element: <ContactPage />,
+        },
+        {
+          path: "books",
+          element: <ContactPage />,
+        },
+        {
+          path: "orders",
           element: <ContactPage />,
         },
       ],
@@ -117,7 +108,7 @@ export default function App() {
   ]);
   return (
     <>
-      {isAuthenticated === true ||
+      {isLoading === false ||
       window.location.pathname === "/login" ||
       window.location.pathname === "/register" ? (
         <RouterProvider router={router} />

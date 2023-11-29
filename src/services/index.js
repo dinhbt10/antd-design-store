@@ -11,3 +11,7 @@ export const postLogin = (data) => {
 export const callFetchAccount = () => {
   return instance.get("api/v1/auth/account");
 };
+
+export const doLogout = () => {
+  return instance.post("api/v1/auth/logout");
+};

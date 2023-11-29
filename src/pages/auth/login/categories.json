@@ -1,0 +1,340 @@
+{
+  "categories": {
+    "automationComponents": [
+      {
+        "title": "Trục Dẫn Hướng",
+        "linkAvatar": "https://vn.misumi-ec.com/linked/material/mech/category/M0101000000.jpg?$category_first$"
+      },
+      {
+        "title": "Gối Đỡ Trục",
+        "linkAvatar": "https://vn.misumi-ec.com/linked/material/mech/category/M0102000000.jpg?$category_first$"
+      },
+      {
+        "title": "Vòng Cổ Trục",
+        "linkAvatar": "https://vn.misumi-ec.com/linked/material/mech/category/M0103000000.jpg?$category_first$"
+      },
+      {
+        "title": "Bạc Dẫn Hướng",
+        "linkAvatar": "https://vn.misumi-ec.com/linked/material/mech/category/M0104000000.jpg?$category_first$"
+      },
+      {
+        "title": "Trục Dẫn Hướng Có Bi",
+        "linkAvatar": "https://vn.misumi-ec.com/linked/material/mech/category/M0105000000.jpg?$category_first$"
+      },
+      {
+        "title": "Trục Dẫn Hướng Chống Xoay",
+        "linkAvatar": "https://vn.misumi-ec.com/linked/material/mech/category/M0106000000.jpg?$category_first$"
+      },
+      {
+        "title": "Bạc, Đệm Tự Bôi Trơn",
+        "linkAvatar": "https://vn.misumi-ec.com/linked/material/mech/category/M0107000000.jpg?$category_first$"
+      },
+      {
+        "title": "Tấm Tự Bôi Trơn, Ray Dẫn Hướng",
+        "linkAvatar": "https://vn.misumi-ec.com/linked/material/mech/category/M0108000000.jpg?$category_first$"
+      },
+      {
+        "title": "Thanh Trượt Dẫn Hướng",
+        "linkAvatar": "https://vn.misumi-ec.com/linked/material/mech/category/M0110000000.jpg?$category_first$"
+      },
+      {
+        "title": "Máng Cáp Đi Dây Điện",
+        "linkAvatar": "https://vn.misumi-ec.com/linked/material/mech/category/M0112000000.jpg?$category_first$"
+      }
+    ],
+    "fasteningComponents": [
+      {
+        "title": "Bu Lông Rãnh Chữ Thập",
+        "linkAvatar": "https://vn.misumi-ec.com/linked/material/mech/category/M3301050000.jpg?$category_first$"
+      },
+      {
+        "title": "Vít Siêu Nhỏ, Vít Đầu Chảo Cho Các Thiết Bị Chính Xác",
+        "linkAvatar": "https://vn.misumi-ec.com/linked/material/mech/category/M3301140000.jpg?$category_first$"
+      },
+      {
+        "title": "Bu Lông Kèm Long Đen",
+        "linkAvatar": "https://vn.misumi-ec.com/linked/material/mech/category/M3301150000.jpg?$category_first$"
+      },
+      {
+        "title": "Vít Tự Khoan, Vit Chặt Công Nghệ Cao",
+        "linkAvatar": "https://vn.misumi-ec.com/linked/material/mech/category/M3301170000.jpg?$category_first$"
+      },
+      {
+        "title": "Vit Tự Khoan",
+        "linkAvatar": "https://vn.misumi-ec.com/linked/material/mech/category/M3301180000.jpg?$category_first$"
+      },
+      {
+        "title": "Tamper Proof Nút Head Cap Vít",
+        "linkAvatar": "https://vn.misumi-ec.com/linked/material/mech/category/M3301070000.jpg?$category_first$"
+      },
+      {
+        "title": "Vít Lục Giác",
+        "linkAvatar": "https://vn.misumi-ec.com/linked/material/mech/category/M3301090000.jpg?$category_first$"
+      },
+      {
+        "title": "Bu Lông Lục Giác",
+        "linkAvatar": "https://vn.misumi-ec.com/linked/material/mech/category/M3301110000.jpg?$category_first$"
+      },
+      {
+        "title": "Bu Lông Tiết Kiệm Không Gian",
+        "linkAvatar": "https://vn.misumi-ec.com/linked/material/mech/category/M3301060000.jpg?$category_first$"
+      },
+      {
+        "title": "Vít Nhỏ",
+        "linkAvatar": "https://vn.misumi-ec.com/linked/material/mech/category/M3301230000.jpg?$category_first$"
+      }
+    ],
+    "electricalEquipmentAndControls": [
+      {
+        "title": "Plc",
+        "linkAvatar": "https://vn.misumi-ec.com/linked/material/el/MID1/PHOTO/m_MID1_97_028_2085.jpg?$category_first$"
+      },
+      {
+        "title": "Rơ Le",
+        "linkAvatar": "https://vn.misumi-ec.com/linked/material/el/IDC1/PHOTO/RJ-1-sc.jpg?$category_first$"
+      },
+      {
+        "title": "Biến Tần",
+        "linkAvatar": "https://vn.misumi-ec.com/linked/material/el/MID1/PHOTO/m_MID1_13_001_2085.jpg?$category_first$"
+      },
+      {
+        "title": "Bảng Điều Khiển Cảm Ứng (Cho Plc)",
+        "linkAvatar": "https://vn.misumi-ec.com/linked/material/el/MID1/PHOTO/m_MID1_93_001_2157.jpg?$category_first$"
+      },
+      {
+        "title": "Bộ Hẹn Giờ / Bộ Lịch Hẹn Giờ",
+        "linkAvatar": "https://vn.misumi-ec.com/linked/material/el/IDC1/PHOTO/GT5Y.jpg?$category_first$"
+      },
+      {
+        "title": "Bộ Đếm",
+        "linkAvatar": "https://vn.misumi-ec.com/linked/material/el/IDC1/PHOTO/DD3S.jpg?$category_first$"
+      },
+      {
+        "title": "Công Tắt",
+        "linkAvatar": "https://vn.misumi-ec.com/linked/material/el/IDC1/PHOTO/CW.jpg?$category_first$"
+      },
+      {
+        "title": "Đèn Báo Nhỏ",
+        "linkAvatar": "https://vn.misumi-ec.com/linked/material/el/category/E1114000000.jpg?$category_first$"
+      },
+      {
+        "title": "Đèn Hoa Tiêu",
+        "linkAvatar": "https://vn.misumi-ec.com/linked/material/el/STP1/PHOTO/222000467519_STP1.jpg?$category_first$"
+      },
+      {
+        "title": "Đèn Xếp",
+        "linkAvatar": "https://vn.misumi-ec.com/linked/material/el/PTL1/PHOTO/lge.jpg?$category_first$"
+      }
+    ],
+    "cuttingTools": [
+      {
+        "title": "Dao Phay Ngón Hợp Kim",
+        "linkAvatar": "https://vn.misumi-ec.com/linked/material/fs/MSM1/PHOTO/10600000330.jpg?$category_first$"
+      },
+      {
+        "title": "Dao Phay Cầu Hợp Kim",
+        "linkAvatar": "https://vn.misumi-ec.com/linked/material/fs/category/T0101020000.jpg?$category_first$"
+      },
+      {
+        "title": "Dao Phay Bo Góc Tròn Hợp Kim",
+        "linkAvatar": "https://vn.misumi-ec.com/linked/material/fs/category/T0101030000.jpg?$category_first$"
+      },
+      {
+        "title": "Dao Phay Côn Hợp Kim",
+        "linkAvatar": "https://vn.misumi-ec.com/linked/material/fs/category/T0101040000.jpg?$category_first$"
+      },
+      {
+        "title": "Dao Phay Ngón Thép Siêu Cứng",
+        "linkAvatar": "https://vn.misumi-ec.com/linked/material/fs/category/T0101050000.jpg?$category_first$"
+      },
+      {
+        "title": "Dao Phay Ngón Thép Gió",
+        "linkAvatar": "https://vn.misumi-ec.com/linked/material/fs/category/T0102010000.jpg?$category_first$"
+      },
+      {
+        "title": "Dao Phay Thép Gió",
+        "linkAvatar": "https://vn.misumi-ec.com/linked/material/fs/category/T0102020000.jpg?$category_first$"
+      },
+      {
+        "title": "Dao Phay Bo Tròn Góc Thép Gió",
+        "linkAvatar": "https://vn.misumi-ec.com/linked/material/fs/category/T0102030000.jpg?$category_first$"
+      },
+      {
+        "title": "Dao Phay Côn Thép Gió",
+        "linkAvatar": "https://vn.misumi-ec.com/linked/material/fs/category/T0102040000.jpg?$category_first$"
+      },
+      {
+        "title": "Dao Phay Gắn Mảnh",
+        "linkAvatar": "https://vn.misumi-ec.com/linked/material/fs/category/T0103010000.jpg?$category_first$"
+      }
+    ],
+    "machiningMachinesAndTools": [
+      {
+        "title": "Linh Kiện Máy Gia Công",
+        "linkAvatar": "https://vn.misumi-ec.com/linked/material/fs/category/T0201000000.jpg?$category_first$"
+      },
+      {
+        "title": "Dụng Cụ Gia Công",
+        "linkAvatar": "https://vn.misumi-ec.com/linked/material/fs/category/T0202000000_001.jpg?$category_first$"
+      },
+      {
+        "title": "Máy Khuấy",
+        "linkAvatar": "https://vn.misumi-ec.com/linked/material/fs/RYB1/PHOTO/PM-1011.jpg?$category_first$"
+      },
+      {
+        "title": "Máy Rung",
+        "linkAvatar": "https://vn.misumi-ec.com/linked/material/fs/EXE1/PHOTO/t010002938878.jpg?$category_first$"
+      },
+      {
+        "title": "Thiết Bị Gia Công Ống",
+        "linkAvatar": "https://vn.misumi-ec.com/linked/material/fs/category/PHOTO/T0206000000_001.jpg?$category_first$"
+      },
+      {
+        "title": "Cuộn Gia Nhiệt",
+        "linkAvatar": "https://vn.misumi-ec.com/linked/material/fs/YGM1/PHOTO/t010002810279.jpg?$category_first$"
+      },
+      {
+        "title": "Máy Khoan",
+        "linkAvatar": "https://vn.misumi-ec.com/linked/material/fs/HIT1/PHOTO/B13R.jpg?$category_first$"
+      },
+      {
+        "title": "Máy Mài",
+        "linkAvatar": "https://vn.misumi-ec.com/linked/material/fs/CGK1/PHOTO/DL-1.jpg?$category_first$"
+      },
+      {
+        "title": "Máy Cắt",
+        "linkAvatar": "https://vn.misumi-ec.com/linked/material/fs/HIT1/PHOTO/CC14SF.jpg?$category_first$"
+      },
+      {
+        "title": "Máy Phay",
+        "linkAvatar": "https://vn.misumi-ec.com/linked/material/fs/HZN1/PHOTO/K-280.jpg?$category_first$"
+      }
+    ],
+    "stampingMoldComponents": [
+      {
+        "title": "Chày",
+        "linkAvatar": "https://vn.misumi-ec.com/linked/material/press/category/P0101000000.jpg?$category_first$"
+      },
+      {
+        "title": "Chày đột lỗ dẫn",
+        "linkAvatar": "https://vn.misumi-ec.com/linked/material/press/MSM1/PHOTO/10100102120.jpg?$category_first$"
+      },
+      {
+        "title": "Bạc Dẫn Hướng Cho Chày",
+        "linkAvatar": "https://vn.misumi-ec.com/linked/material/press/MSM1/PHOTO/10100108510.jpg?$category_first$"
+      },
+      {
+        "title": "Cối dập",
+        "linkAvatar": "https://vn.misumi-ec.com/linked/material/press/MSM1/PHOTO/10100109550.jpg?$category_first$"
+      },
+      {
+        "title": "Chày Vuông",
+        "linkAvatar": "https://vn.misumi-ec.com/linked/material/press/MSM1/PHOTO/10100113230.jpg?$category_first$"
+      },
+      {
+        "title": "Cối Vuông",
+        "linkAvatar": "https://vn.misumi-ec.com/linked/material/press/MSM1/PHOTO/10100116370.jpg?$category_first$"
+      },
+      {
+        "title": "Chày Hợp Kim",
+        "linkAvatar": "https://vn.misumi-ec.com/linked/material/press/MSM1/PHOTO/10100120410.jpg?$category_first$"
+      },
+      {
+        "title": "Chày Hợp Kim Đột Lỗ Dẫn",
+        "linkAvatar": "https://vn.misumi-ec.com/linked/material/press/MSM1/PHOTO/10100123640.jpg?$category_first$"
+      },
+      {
+        "title": "Cối Hợp Kim",
+        "linkAvatar": "https://vn.misumi-ec.com/linked/material/press/MSM1/PHOTO/10100126530.jpg?$category_first$"
+      },
+      {
+        "title": "Chày Hợp Kim Vuông",
+        "linkAvatar": "https://vn.misumi-ec.com/linked/material/press/MSM1/PHOTO/10100127930.jpg?$category_first$"
+      }
+    ],
+    "plasticMoldComponents": [
+      {
+        "title": "Pin Đẩy Thẳng",
+        "linkAvatar": "https://vn.misumi-ec.com/linked/material/mold/MSM1/PHOTO/10200000110.jpg?$category_first$"
+      },
+      {
+        "title": "Pin Đẩy Bậc",
+        "linkAvatar": "https://vn.misumi-ec.com/linked/material/mold/MSM1/PHOTO/10200009460.jpg?$category_first$"
+      },
+      {
+        "title": "Pin Đẩy Tùy Chỉnh Vị Trí Vai",
+        "linkAvatar": "https://vn.misumi-ec.com/linked/material/mold/MSM1/PHOTO/10200014720.jpg?$category_first$"
+      },
+      {
+        "title": "Pin Cho Khối Đẩy",
+        "linkAvatar": "https://vn.misumi-ec.com/linked/material/mold/MSM1/PHOTO/10200015330.jpg?$category_first$"
+      },
+      {
+        "title": "Pin Đẩy Vuông",
+        "linkAvatar": "https://vn.misumi-ec.com/linked/material/mold/MSM1/PHOTO/10200015760.jpg?$category_first$"
+      },
+      {
+        "title": "Van Thoát Khí",
+        "linkAvatar": "https://vn.misumi-ec.com/linked/material/mold/MSM1/PHOTO/10200009120.jpg?$category_first$"
+      },
+      {
+        "title": "Pin Cho Khối Đẩy",
+        "linkAvatar": "https://vn.misumi-ec.com/linked/material/mold/MSM1/PHOTO/10200157340.jpg?$category_first$"
+      },
+      {
+        "title": "Pin Ống Thẳng",
+        "linkAvatar": "https://vn.misumi-ec.com/linked/material/mold/MSM1/PHOTO/10200008940.jpg?$category_first$"
+      },
+      {
+        "title": "Pin Ống Bậc",
+        "linkAvatar": "https://vn.misumi-ec.com/linked/material/mold/MSM1/PHOTO/10200021720.jpg?$category_first$"
+      },
+      {
+        "title": "Pin Trung Tâm Loại Thẳng",
+        "linkAvatar": "https://vn.misumi-ec.com/linked/material/mold/MSM1/PHOTO/10200024430.jpg?$category_first$"
+      }
+    ],
+    "componentsForInjectionMolding": [
+      {
+        "title": "Nhựa tẩy",
+        "linkAvatar": "https://vn.misumi-ec.com/linked/material/mold/category/PHOTO/K1401000000_002.jpg?$category_first$"
+      },
+      {
+        "title": "Dụng Cụ Vệ Sinh Trục Vít",
+        "linkAvatar": "https://vn.misumi-ec.com/linked/material/mold/category/K1602010000.jpg?$category_first$"
+      },
+      {
+        "title": "Dụng Cụ Cầm Tay",
+        "linkAvatar": "https://vn.misumi-ec.com/linked/material/mold/category/K1602030000.jpg?$category_first$"
+      },
+      {
+        "title": "Kẹp Khuôn",
+        "linkAvatar": "https://vn.misumi-ec.com/linked/material/mold/category/PHOTO/K1603010000_001.jpg?$category_first$"
+      },
+      {
+        "title": "Nam Châm Hút Sắt Trong Phễu Nhựa",
+        "linkAvatar": "https://vn.misumi-ec.com/linked/material/mold/category/K1603020000.jpg?$category_first$"
+      },
+      {
+        "title": "Phụ Kiện Hỗ Trợ Cho Hệ Thống Dẫn Nhựa",
+        "linkAvatar": "https://vn.misumi-ec.com/linked/material/mold/category/K1603030000.jpg?$category_first$"
+      },
+      {
+        "title": "Ống Dẫn Nhựa",
+        "linkAvatar": "https://vn.misumi-ec.com/linked/material/mold/category/PHOTO/K1603040000_001.jpg?$category_first$"
+      },
+      {
+        "title": "Khay Hứng Sản Phẩm",
+        "linkAvatar": "https://vn.misumi-ec.com/linked/material/mold/category/K1601010000.jpg"
+      },
+      {
+        "title": "Thùng Chứa Nhựa",
+        "linkAvatar": "https://vn.misumi-ec.com/linked/material/mold/category/PHOTO/K1601030000_001.jpg"
+      },
+      {
+        "title": "Tấm Chắn Phoi",
+        "linkAvatar": "https://vn.misumi-ec.com/linked/material/mold/category/K1601040000.jpg"
+      }
+    ]
+  }
+}
